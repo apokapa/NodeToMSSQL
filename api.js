@@ -10,10 +10,11 @@ var sql = require('mssql');
     user: 'dbusername',                            //db username
     password: 'dbpassword',                   //db password
     server: 'your sql server ip/domain etc',  //' localhost\\instance' or server ip/domain
+    port:'port', 
     database: 'dbname',                        //db name
     
     options: {
-       encrypt: true                            // Use 'true' if you're on Windows Azure! 
+       encrypt: false                            // Use 'true' if you're on Windows Azure! 
     }
 }
 
